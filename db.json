@@ -8,7 +8,7 @@
     }
   ],
   "bill": {
-    "value": 232232,
+    "value": 215542,
     "currency": "RUB"
   },
   "categories": [
@@ -107,6 +107,38 @@
       "date": "12.01.2019 22:14:00",
       "description": "фывфы",
       "id": 10
+    },
+    {
+      "type": "outcome",
+      "amount": 1123,
+      "category": 3,
+      "date": "12.01.2019 23:46:10",
+      "description": "sdad",
+      "id": 11
+    },
+    {
+      "type": "outcome",
+      "amount": 1123,
+      "category": 1,
+      "date": "12.01.2019 23:46:18",
+      "description": "sdasdsd",
+      "id": 12
+    },
+    {
+      "type": "outcome",
+      "amount": 1321,
+      "category": 3,
+      "date": "12.01.2019 23:46:31",
+      "description": "2312312",
+      "id": 13
+    },
+    {
+      "type": "outcome",
+      "amount": 13123,
+      "category": 1,
+      "date": "12.01.2019 23:49:07",
+      "description": "dsfsdfds",
+      "id": 14
     }
   ]
 }

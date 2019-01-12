@@ -3,7 +3,6 @@ import {BillService} from "../shared/services/bill.service";
 import {combineLatest, Subscription} from "rxjs";
 import {Bill} from "../shared/models/bill.models";
 import {Category} from "../shared/models/category.models";
-import {MyEvent} from "../shared/models/event.model";
 import {CategoriesService} from "../shared/services/categories.service";
 import {EventsService} from "../shared/services/events.service";
 
@@ -19,7 +18,7 @@ export class PlanningPageComponent implements OnInit, OnDestroy {
 
     bill: Bill;
     categories: Category[] = [];
-    events: MyEvent[] = [];
+    events: any = [];
 
     constructor(private billService: BillService,
                 private categoriesService: CategoriesService,
@@ -36,9 +35,6 @@ export class PlanningPageComponent implements OnInit, OnDestroy {
             this.categories = data[1];
             this.events = data[2];
 
-            console.log(this.events)
-            console.log(this.categories)
-            console.log(this.bill)
             this.isLoaded = true;
         });
     }

@@ -2,7 +2,7 @@ import {BaseApi} from "../../../shared/core/base.api";
 import {Injectable} from "@angular/core";
 import {HttpClient} from "@angular/common/http";
 import {Observable} from "rxjs";
-import {MyEvent} from "../models/event.model";
+import {MyEvent} from "../models/event.models";
 
 @Injectable()
 export class EventsService extends BaseApi {

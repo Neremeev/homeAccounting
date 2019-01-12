@@ -1,7 +1,7 @@
 import {Component, Input, OnDestroy, OnInit} from '@angular/core';
 import {Category} from "../../shared/models/category.models";
 import {NgForm} from "@angular/forms";
-import {MyEvent} from "../../shared/models/event.model";
+import {MyEvent} from "../../shared/models/event.models";
 import * as moment from 'moment';
 import {EventsService} from "../../shared/services/events.service";
 import {BillService} from "../../shared/services/bill.service";

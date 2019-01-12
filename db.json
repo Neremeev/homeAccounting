@@ -8,7 +8,7 @@
     }
   ],
   "bill": {
-    "value": 100000,
+    "value": 232232,
     "currency": "RUB"
   },
   "categories": [
@@ -28,9 +28,19 @@
       "capacity": 7000
     },
     {
-      "name": "Тренировки",
+      "name": "Тренировки1",
       "capacity": 1001,
       "id": 4
+    },
+    {
+      "name": "новая",
+      "capacity": 12,
+      "id": 5
+    },
+    {
+      "name": "ыфвы",
+      "capacity": 1000,
+      "id": 6
     }
   ],
   "events": [
@@ -73,6 +83,30 @@
       "date": "10.06.2017 14:01:58",
       "id": 5,
       "description": "Заправка + проход ТО"
+    },
+    {
+      "type": "income",
+      "amount": 1,
+      "category": 1,
+      "date": "12.01.2019 21:58:30",
+      "description": "ыфы",
+      "id": 8
+    },
+    {
+      "type": "income",
+      "amount": 131231,
+      "category": 1,
+      "date": "12.01.2019 22:07:07",
+      "description": "вфывф",
+      "id": 9
+    },
+    {
+      "type": "outcome",
+      "amount": 1,
+      "category": 1,
+      "date": "12.01.2019 22:14:00",
+      "description": "фывфы",
+      "id": 10
     }
   ]
 }

@@ -8,7 +8,9 @@
     </button>
   </div>
 </div>
-<div *ngIf="!isLoaded" class="text-center">Loading...</div>
+<div *ngIf="!isLoaded" class="text-center">
+  <app-Loader></app-Loader>
+</div>
 <div *ngIf="isLoaded">
   <app-history-chart [data]="chartData"></app-history-chart>
   <app-history-events

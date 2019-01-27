@@ -4,6 +4,7 @@ import {Router} from "@angular/router";
 
 import {UserService} from "../../shared/services/user.service";
 import {User} from "../../shared/models/users.models";
+import {Title} from "@angular/platform-browser";
 
 
 @Component({
@@ -18,7 +19,10 @@ export class RegistrationComponent implements OnInit {
   constructor(
     private userService: UserService,
     private router: Router,
-  ) { }
+    private title: Title
+  ) {
+    title.setTitle('Регистрация');
+  }
 
   ngOnInit() {
     this.form = new FormGroup({

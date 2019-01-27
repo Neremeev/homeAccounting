@@ -7,6 +7,7 @@ import {User} from "../../shared/models/users.models";
 import {Message} from "../../shared/models/message.models";
 import {AuthService} from "../../shared/services/auth.service";
 import {fadeStateTrigger} from "../../shared/animation/fade.animation";
+import {Meta, Title} from "@angular/platform-browser";
 
 
 @Component({
@@ -24,8 +25,17 @@ export class LoginComponent implements OnInit {
     private userService: UserService,
     private authService: AuthService,
     private router: Router,
-    private route: ActivatedRoute
-  ) { }
+    private route: ActivatedRoute,
+    private title: Title,
+    private meta: Meta
+  ) {
+    // SEO
+    title.setTitle('Вход в систему');
+    meta.addTags([
+        {name: 'keywords', content: 'логин,вход,система'},
+        {name: 'description', content: 'страница для входа в систему'},
+    ]);
+  }
 
   ngOnInit() {
     this.message = new Message('danger', ''); // была интересная ошибка, когда строка была ниже чем сабскрайб

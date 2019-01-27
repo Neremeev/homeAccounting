@@ -19,7 +19,7 @@ export class HistoryPageComponent implements OnInit, OnDestroy {
     s1: Subscription;
 
     categories: Category[] = [];
-    events = [];
+    events: any = [];
 
     chartData = [];
 

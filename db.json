@@ -8,7 +8,7 @@
     }
   ],
   "bill": {
-    "value": 215542,
+    "value": 214419,
     "currency": "RUB"
   },
   "categories": [
@@ -139,6 +139,14 @@
       "date": "12.01.2019 23:49:07",
       "description": "dsfsdfds",
       "id": 14
+    },
+    {
+      "type": "outcome",
+      "amount": 1123,
+      "category": 1,
+      "date": "27.01.2019 18:37:59",
+      "description": "123123",
+      "id": 15
     }
   ]
 }

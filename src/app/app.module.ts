@@ -8,7 +8,6 @@ import {AuthModule} from "./auth/auth.module";
 import { AppComponent } from './app.component';
 import {UserService} from "./shared/services/user.service";
 import {AuthService} from "./shared/services/auth.service";
-import {SystemModule} from "./system/system.module";
 
 
 @NgModule({
@@ -20,7 +19,6 @@ import {SystemModule} from "./system/system.module";
     AuthModule,
     HttpClientModule,
     AppRoutingModule,
-    SystemModule,
     BrowserAnimationsModule
   ],
   providers: [UserService, AuthService], // можно здесь написать провайдер
